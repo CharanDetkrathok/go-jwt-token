@@ -34,7 +34,7 @@ func AuthService() JWTService {
 func getSecretKey() string {
 	secret := os.Getenv("SECRET")
 	if secret == "" {
-		secret = "Survey-secret-signature-key"
+		secret = "a!@sd#$VHY%*&PO?JHGTY#@%^(*?"
 	}
 	return secret
 }
